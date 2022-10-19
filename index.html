@@ -7,12 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
 </head>
 <body>
     <section class="header"> 
         <nav>
             <a href="index.html"><img src="images/logo.png"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -21,15 +23,60 @@
                     <li><a href="">BLOG</a></li>
                     <li><a href="">CONTACTS</a></li>
                 </ul>  
-            </div>              
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>              
         </nav>
 
     <div class="text-box">
         <h1>The Hub Portal and Academy</h1>
-        <p>he Hub portal and academy is a platform for learning bioinformatics and open science,<br>mainly aimed at serving high school leavers and life science college applicants. </p>
+        <p>The Hub portal and academy is a platform for learning bioinformatics and open science,<br>mainly aimed at serving high school leavers and life science college applicants. </p>
         <a href="" class="hero-btn">Visit our page for more</a>
 
     </div>
     </section>
+
+<!----Resources------>
+<section class="Resources">
+    <h1>Resources that may be useful to you</h1>
+    <p>These are divided between post highschool, and undergraduate and early career reserchers.</p>
+
+    <div class="row">
+        <div class="resources-col">
+            <h3>Post highschool</h3>
+            <p>For post highschool guys, your resources are here</p>
+        </div>
+        <div class="resources-col">
+            <h3>undergraduate</h3>
+            <p>For undergraduate guys, your resources are here</p>
+        </div>
+        <div class="resources-col">
+            <h3>Early career</h3>
+            <p>For post early career guys, your resources are here</p>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+   <!------------JavaScript for Toggle Menu----->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
 </body>
 </html>

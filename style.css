@@ -154,3 +154,124 @@ p{
     padding: 20px 12px;
     box-sizing: border-box;
 }
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.resources-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+.Events{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.events-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.events-col img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(9, 9, 9, 0.076);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 700;
+    color: #000;
+    font-weight: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/*-------------Our activities-------------------*/
+
+.Activities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.activities-col{
+    flex-basis: 49%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.activities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.activities-col p{
+    padding: 0;
+}
+.activities-col h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/*------call to action---------*/
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color: #ffff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+/*------Footer---------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}

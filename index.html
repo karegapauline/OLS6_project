@@ -4,12 +4,17 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>The Hub Portal and Academy website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
 </head>
 <body>
     <section class="header"> 
         <nav>
-            <a href="index.html"><img src="images/logo.jpg"></a>
-            <div class="nav-links">
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -18,8 +23,121 @@
                     <li><a href="">BLOG</a></li>
                     <li><a href="">CONTACTS</a></li>
                 </ul>  
-            </div>              
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>              
         </nav>
+
+    <div class="text-box">
+        <h1>The Hub Portal and Academy</h1>
+        <p>The Hub portal and academy is a platform for learning bioinformatics and open science,<br>mainly aimed at serving high school leavers and life science college applicants. </p>
+        <a href="" class="hero-btn">Visit our page for more</a>
+
+    </div>
     </section>
+
+<!----Resources------>
+<section class="Resources">
+    <h1>Resources that may be useful to you</h1>
+    <p>These are divided between post highschool, and undergraduate and early career reserchers.</p>
+
+    <div class="row">
+        <div class="resources-col">
+            <h3>Post highschool</h3>
+            <p>For post highschool guys, we redirect all information useful for highschool guys to start a career in life sciences.</p>
+        </div>
+        <div class="resources-col">
+            <h3>Undergraduate</h3>
+            <p>For undergraduate guys, a bioinformatics curriculum they can learn on their own.</p>
+        </div>
+        <div class="resources-col">
+            <h3>Early career</h3>
+            <p>For early career guys, resources to build their skills, reproducing papers, intermediate to advanced courses, hackathons/projects.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-------Events----------->
+<section class="Events">
+    <h1>LifeScience Events</h1>
+    <p>You can find updats on all events concerning life sciences including career fairs, workshops and more here.</p>
+    <div class="row">
+        <div class="events-col">
+            <img src="images/workshops.jpg">
+            <div class="layer">
+                <h3>Workshops</h3>
+            </div>
+        </div>
+        <div class="events-col">
+            <img src="images/conferences.png">
+            <div class="layer">
+                <h3>Conferences</h3>
+            </div>
+        </div>
+        <div class="events-col">
+            <img src="images/hackathons.jpg">
+            <div class="layer">
+                <h3>Hackathons</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------Our activities------>
+<section class="Activities">
+    <h1>Our activities</h1>
+    <p>We carry out research projects from the information we collect to offer valuable solutions to our audience. As a sustainability plan we offer an events planning service. You can also get our source code for web mining that we use to fill our pages.</p>
+
+    <div class="row">
+        <div class="activities-col">
+            <img src="images/projects.png">
+            <h3>Research and projects</h3>
+            <p>Data science for social good type projects. Research on life sciences in the region, how students get information, what's lacking, and the likes. And solutions we propose.</p>
+        </div>
+        <div class="activities-col">
+            <img src="images/projects.png">
+            <h3>Services</h3>
+            <p>Planning events, tech and science events for organizations as a sustainability plan.</p>
+        </div>    
+    </div>
+</section>
+
+<!----------Call to action------------->
+<section class="cta">
+    <h1>Let us help you start and grow in your science journey.</h1>
+    <a href="" class="hero-btn">CONTACTS</a>
+</section>
+
+
+
+<!----------Footer------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Visit our site.</p>
+    <div class="icons">
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by Karega Pauline</p>
+</section>
+
+
+
+   <!------------JavaScript for Toggle Menu----->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
 </body>
 </html>

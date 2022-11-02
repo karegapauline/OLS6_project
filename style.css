@@ -291,14 +291,14 @@ h3{
 }
 
 .about-us{
-    width: 90%;
+    width: 80%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 50px;
 }
 
 .about-col{
-    flex-basis: 48%;
+    flex-basis:49%;
     padding: 30px 2px;
 }
 .about-col img{

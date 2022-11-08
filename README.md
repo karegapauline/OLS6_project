@@ -8,14 +8,14 @@ The tentative name is The Hub portal and academy. A platform for learning bioinf
 3. Gladys Jerono
 4. Karega Pauline
 
-## Main Goal
-To create a platform for dissemination of bioinformatics and research knowledge and skills to post-secondary, undergraduate and post-undergraduate students through tailor-made curricula and trainings
-
 ## Problem
 Lack of familiarity on data analysis using bioinformatics solutions
 Lack of bioinformatics knowledge itself
 Lack of proper guidance for early career scientists into research
 Lack of a one stop solution for learning, practicing and thereafter networking and growing in bioinformatics
+
+## Main Goal
+To create a platform for dissemination of bioinformatics and research knowledge and skills to post-secondary, undergraduate and post-undergraduate students through tailor-made curricula and training
 
 ## Specific Goals
 1. To disseminate bioinformatics and research knowledge and skills to post-secondary, undergraduate and post-undergraduate students

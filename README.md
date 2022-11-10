@@ -22,12 +22,15 @@ According to research by Hooker, (2017), there is a shortfall of five million sc
 During this project, we hope to create an integrated resource that caters to post-secondary, undergraduate and postgraduate students in science-aligned courses. 
 
 **Our proposal for post-secondary students**
+
 Our website hopes to be a one-stop solution for course information. In Kenya, the STEM field is one of the most respected and enviable fields to get into. However, it is also one of the fields that has the least mentorship for young and upcoming researchers. This problem tends to be most evident in the first few years after admission to higher education institutions when students encounter difficulties that include dissatisfaction with the courses they have chosen and consequently a lack of intrinsic drive to continue to pursue these courses. Our website aims to ease the course selection process by making available information about courses, universities in which they are offered, starting salaries for people in similar careers, organisations and institutions where one can find work opportunities after graduation etc. In the future, we hope to partner with career counsellors and coaches that will further benefit students in the career selection process.
 
 **Our proposal for undergraduates**
+
 According to studies (Kumwenda et al., 2017; Science Education in Kenya Ochong O’kelo, n.d.) lack of mentorship is cited as one of the challenges young African students face in their career development and urges the establishment of mentorship programs to help in this instance. Most science students go through their science education not having the necessary information about what it’s like to be a biological scientist, whom to look up to, or what options exist to consider for their career trajectories (Problems Facing Young Scientists in Kenya, n.d.). Furthermore, a survey conducted by KamiLimu data survey showed that up to 73% of students in technology don’t receive consistent mentorship outside the classroom. Using the data, we can extrapolate that the situation is the same for other STEM courses. Our services therefore will encompass upskilling undergraduate students to ensure they are industry-ready once they graduate. On our website we include resources especially for biological science students that can help beef-up their skillset so as to stand out during job searches. We also provide information on institutions for industrial attachment and internships to kick-start their career.
 
 **Our proposal for postgraduates**
+
 Coming soon… but in the meantime, if you’re interested in bioinformatics, check out bhki.org
 
 ## What makes us unique

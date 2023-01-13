@@ -107,9 +107,9 @@ nav .fa{
 
     }
     nav .fa{
-        display: :block;
+        display: block;
         color: #ffff;
-        margin: 1px;
+        margin: 10px;
         font-size: 22px;
         cursor: pointer;
 

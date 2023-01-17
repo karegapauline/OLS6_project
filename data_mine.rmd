@@ -1,0 +1,55 @@
+---
+title: "hpna_mine"
+output: html_document
+date: "2023-01-13"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## API Key
+TuWHraZocjlVuMkHTC5MZnCCI
+
+## API Key secret
+26y9dVp8BmkLL6lrDoeiFgN0sRLrGD9iERz7rQoLWuBva1KkpL
+
+## Bearer token
+AAAAAAAAAAAAAAAAAAAAAN%2FLlAEAAAAAVTIlrXA%2FrNyXbfB6VRVlx7JwqkY%3DgXjOL6ZDjTh91w2378uOvXRSvlmRQA2yXgraIj5conMe2M3jTv
+
+## Access Token
+924968036-1fkkJZNvsg4PoRKa6YrUr4Fo2mkSZCtfNdZX0vLY
+
+## Access Token secret
+b7CVHhE7nH6RbRzWThOsx8FCkqhiN3JjMkgvXZqdDinuS
+
+```{r}
+#standardAPI
+create_token(
+  app = "HP&A",
+  consumer_key = "TuWHraZocjlVuMkHTC5MZnCCI",
+  consumer_secret = "26y9dVp8BmkLL6lrDoeiFgN0sRLrGD9iERz7rQoLWuBva1KkpL",
+  access_token = "924968036-1fkkJZNvsg4PoRKa6YrUr4Fo2mkSZCtfNdZX0vLY",
+  access_secret = "b7CVHhE7nH6RbRzWThOsx8FCkqhiN3JjMkgvXZqdDinuS",
+  set_renv = TRUE
+)
+
+
+```
+```{r}
+bhki <- get_timeline("KEMRI_Wellcome", n = 200)
+View(bhki)
+```
+
+```{r}
+getwd()
+setwd("C:/Users/ADMIN/Desktop/OLS6_project/")
+
+```
+
+```{r}
+library(rtweet)
+auth_setup_default()
+rt <- search_tweets("bioinformatics",n=10, include_rts = FALSE)
+```
+

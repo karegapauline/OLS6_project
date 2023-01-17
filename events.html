@@ -40,8 +40,55 @@
     <div class="row">
         <div class="activities-col">
             <img src="images/projects.png">
-            <h3>Workshops and trainings</h3>
-            <p>Check out these workshops for training</p>
+            <button id="button-el" onclick="buildTable()">Workshops and Trainings</button>
+            
+            <!---Upon clicking this workshop button-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+            <style>
+                th{
+                color: #fff 
+                }
+            </style>
+
+            <table class="table table-striped">
+                <tr class="bg-info">
+                    <th>Workshop Name</th>
+                    <th>Workshop Date</th>
+                    <th>Application/Infor link</th>
+                </tr>
+
+                <tbody id="myTable">
+
+                </tbody>
+            </table>
+
+            <script>
+                var myArray = [
+                {'workshopName':'Introduction to Bacterial Genomics Bioinformatics Workshop', 'workshopDate': '23-27th January', 'applicationLink' : 'Sign up here: https://t.co/Bi1PN0bITb'},
+                {'workshopName':'Shotgun Metagenomics Analysis Workshop','workshopDate':'Dec 12-14','applicationLink':'Sign up here: https://t.co/kUx64lS6s4'}
+            ]
+
+            buildTable(myArray)
+
+            function buildTable(data){
+                var table = document.getElementById('myTable')
+
+                for (var i = 0; i < data.length; i++){
+                    var row = `<tr>
+                                    <td>${data[i].workshopName}</td>
+                                    <td>${data[i].workshopDate}</td>
+                                    <td>${data[i].applicationLink}</td>
+
+                                </tr>`
+                    table.innerHTML += row
+                }
+            }
+
+            </script>
+
         </div>
         <div class="activities-col">
             <img src="images/projects.png">
